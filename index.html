@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/font@1.1.0/css/font.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+    <title>CSS ASSIGNMENT 3</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="login-container">
+        <h1>
+            Login
+        </h1>
+        <label for="" class="label">Email</label>
+        <div id="email">
+            <i id="email" class="fas fa-envelope"></i>
+            <input id="email-input" class="inputs" placeholder="Please Enter Your Name">
+        </div>
+
+        <label for="" class="label">Password</label>
+        <div id="password">
+            <i id="lock" class="fas fa-lock"></i>
+            <input id="password-input" class="inputs" type="password" placeholder="Please Enter Your Password">
+        </div>
+        <div class="remember">
+            <input type="checkbox">
+            Remember Me
+            </div>
+            <a href="google.com" id="Forget">Forget Password</a>
+        <input type="submit" value="Login" id="button">
+
+      
+        <p class="p2">Don't Have An Account <a href="google.com" id="Register">Register</a></p>
+    </div>
 </body>
 </html>
